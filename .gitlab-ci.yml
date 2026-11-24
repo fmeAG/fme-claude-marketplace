@@ -1,0 +1,7 @@
+validate:
+  image: node:22
+  script:
+    - npm install -g @anthropic-ai/claude-code
+    - claude plugin validate .
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"

@@ -1,0 +1,35 @@
+{
+  "name": "fme-claude-marketplace",
+  "owner": {
+    "name": "fme AG – KI-Team",
+    "email": "ki-team@example.com"
+  },
+  "metadata": {
+    "description": "Interner Claude-Marketplace der fme AG",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "meeting-protokoll",
+      "source": "./plugins/meeting-protokoll",
+      "description": "Erstellt strukturierte Meeting-Protokolle mit Aufgabenliste",
+      "version": "0.1.0",
+      "category": "produktivitaet",
+      "tags": [
+        "meeting",
+        "protokoll"
+      ]
+    },
+    {
+      "name": "code-review-helfer",
+      "source": "./plugins/code-review-helfer",
+      "description": "Review-Checkliste für Python-Code nach fme-Standard",
+      "version": "0.1.0",
+      "category": "entwicklung",
+      "tags": [
+        "review",
+        "python"
+      ]
+    }
+  ]
+}

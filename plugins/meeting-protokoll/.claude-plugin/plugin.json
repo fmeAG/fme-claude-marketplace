@@ -1,0 +1,8 @@
+{
+  "name": "meeting-protokoll",
+  "description": "Erstellt strukturierte Meeting-Protokolle",
+  "version": "0.1.0",
+  "author": {
+    "name": "fme AG KI-Team"
+  }
+}

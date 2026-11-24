@@ -1,0 +1,8 @@
+{
+  "name": "code-review-helfer",
+  "description": "Review-Checkliste für Python-Code",
+  "version": "0.1.0",
+  "author": {
+    "name": "fme AG KI-Team"
+  }
+}
